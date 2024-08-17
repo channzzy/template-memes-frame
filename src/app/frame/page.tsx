@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   other: {
     'fc:frame': 'vNext',
     'fc:frame:image': `${process.env.NEXT_PUBLIC_SITE_URL}/thumbnail.png`,
-    'fc:frame:post_url': `${process.env.NEXT_PUBLIC_SITE_URL}/api?id=1`,
+    'fc:frame:post_url': `${process.env.NEXT_PUBLIC_SITE_URL}/api/basic?id=1`,
     'fc:frame:button:1': 'Start',
     'fc:frame:button:2': 'Share',
     'fc:frame:button:2:action' : "link",
-    'fc:frame:button:2:target' : "https://warpcast.com/~/compose?text=Get%20Template%20Memes!%20Frame%20by%20@chanzy10&embeds[]=https://moxieframe.vercel.app"
+    'fc:frame:button:2:target' : "https://warpcast.com/~/compose?text=Get%20Template%20Memes!%20Frame%20by%20@chanzy10&embeds[]=https://moxieframe.vercel.app/basic?id=${id}"
   },
 }
 
