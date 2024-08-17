@@ -23,7 +23,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:image:aspect_ratio" content="1:1" />
     <meta property="fc:frame:button:2" content="Share" />
     <meta property="fc:frame:button:2:action" content="link" />
-    <meta property="fc:frame:button:2:target" content="https://warpcast.com/~/compose?text=Get%20Template%20Memes!%20Frame%20by%20@chanzy10&embeds[]=https://template-memes-frame.vercel.app/" />
+    <meta property="fc:frame:button:2:target" content="https://warpcast.com/~/compose?text=Get%20Template%20Memes!%20Frame%20by%20@chanzy10&embeds[]=https://meme-templates-frame.vercel.app/" />
     <meta property="fc:frame:button:1" content="Download Template" />
     <meta name="fc:frame:button:1:action" content="link" />
     <meta name="fc:frame:button:1:target" content="${process.env.NEXT_PUBLIC_SITE_URL}/original-file/template-${id}.jpg" />
