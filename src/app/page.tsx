@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'fc:frame:button:1': 'Start',
     'fc:frame:button:2': 'Share',
     'fc:frame:button:2:action' : "link",
-    'fc:frame:button:2:target' : "https://warpcast.com/~/compose?text=Get%20Template%20Memes!%20Frame%20by%20@chanzy10&embeds[]=https://moxieframe.vercel.app"
+    'fc:frame:button:2:target' : "https://warpcast.com/~/compose?text=Get%20Template%20Memes!%20Frame%20by%20@chanzy10&embeds[]=https://template-memes-frame.vercel.app/"
   },
 }
 
